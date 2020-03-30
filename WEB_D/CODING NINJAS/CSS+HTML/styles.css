@@ -1,0 +1,26 @@
+h1 {
+    font-size: 40px;
+    color: darkslategrey;
+}
+
+header{
+	height: 400px;
+}
+
+p {
+    color: dimgrey;
+}
+main
+{
+    width: 1000px;
+}
+#special{
+	font-size: 28px;
+	color: black;
+
+}
+#special:hover{
+	font-size: 28px;
+	color: rgb(215,82,29);
+	
+}

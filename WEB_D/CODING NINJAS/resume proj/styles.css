@@ -1,0 +1,276 @@
+#about ul{
+	display: inline-block;
+}
+/*body header*/
+.main-header{
+	height: 65vh;
+	background-image: url("jesus-kiteque-wn-KYaHwcis-unsplash.jpg");
+	background-size: cover;
+	opacity:0.6;
+	background-position: 90% 175%;
+	background-attachment: fixed;
+	margin-top:-15px;
+	margin-left:-21px;
+	margin-right:-41px;
+
+
+	/*background-repeat: no-repeat;*/
+}
+
+header nav{
+	/*position: -webkit-sticky;*/
+position: sticky;
+top: 0px;
+background-color: black;
+height:4rem;
+/*margin-top: -10px;*/
+
+}
+
+.main-header li{
+	display:inline-block;
+	padding-left: 0px;
+	margin: 4px 5px;
+	padding-bottom: 4px;
+}
+
+
+/*navbar list*/
+.horizontal-list ul{
+	list-style-type: none;
+	margin-left: 25%
+
+}
+#navbar{
+	margin-bottom: 16px;
+	/*mar-bottom: 0px;*/
+}
+.horizontal-list li{
+	list-style-type: none;
+	margin-left: 25%;
+	margin:20px;
+
+}
+#navbar a{
+	text-decoration: none;
+	color: white;
+	font-size: 1.5rem;
+	font-family: 'Raleway', sans-serif;
+	font-weight: normal;
+	transition: color 0.3s, border-bottom 0.5s;
+}
+#navbar a:hover{
+	color: rgb(194,194,194);
+	border-bottom: 1px solid rgb(194,194,194);
+}
+.text-center{
+	text-align: center;
+}
+#navbar{
+	margin-top: -10px;
+}
+#name-heading{
+	text-align: center;
+	/*margin-top: 0px;*/
+	margin-bottom: 2rem;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 1.2rem;
+	word-spacing: 1.3rem;
+	font-size: 5rem;
+	margin-top: 25px;
+	color: rgb(16,20,40);
+}
+
+/*social media*/
+.logo-social{
+	height: 64px;
+	width:64px;
+}
+#social-media{
+	margin-top: -45px;
+	margin-bottom: 0px;
+}
+header img[src$=".svg"]:hover{
+	color: rgba(38,38,38,0.7);
+	/*box-shadow: 0 0 6px 4px red;*/
+	filter: drop-shadow(0px 0px 6px rgba(38,38,38,0.5));
+	/*color: blue;*/
+	/*border-bottom: 1px solid red;*/
+}
+#about{
+	height: auto;
+	width: 100%;
+	position: relative;
+}
+#about-text{
+	text-align: center;
+	margin: auto;
+	margin-top:4rem;
+	font-family: 'Raleway', sans-serif;
+	line-height: 3rem ;
+	font-size: 1.8rem;
+	color: rgb(100,102,109);
+	width: 60%;
+} 
+#about-text i{
+	color:rgb(194,194,194);
+}
+
+#profile-pic{
+	height: 16rem;
+	width:16rem;
+	margin-left: 39%;
+	margin-right: 40%;
+	margin-top: -20vh;
+}
+#profile-pic img{
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+	border: 4px outset rgb(127,129,142);
+	box-shadow: 3px 3px 6px 4px rgb(38,38,38);
+}
+body{
+	background-color: black;
+}
+#letter-spacing{
+	letter-spacing: -0.5rem;
+}
+/*section rules*/
+section{
+	display: flex;
+	height: auto;
+	min-height:60vh;
+	padding: 0px;
+	width: 103%;
+
+	flex-direction: column;
+	justify-content: flex-start;
+	flex-wrap: column;
+	align-items: center;
+}
+section:nth-child(2n+1){
+	background-color: black;
+	/*width: 100%;
+	height: 100%*/
+}
+section:nth-child(2n){
+	background-color: rgb(85,93,102);
+	/*width: 100%;
+	height: 100%*/
+}
+#skills-icon{
+	height:2.7rem;
+	align-items: flex-start;
+	width: 2.7rem;
+}
+
+.inside-skill{
+	height: 2.5rem;
+	font-family: 'Raleway', sans-serif;
+	/*text-align: center;*/
+	line-height: 40px;
+	color: white;
+	font-size: 1.5rem;
+	border-radius: 500px;
+	border: 1px solid rgba(0,0,0,0.5);
+}
+#cpp{
+	width:90%;
+	background-color:rgb(50, 117, 12); 
+
+}
+#python{
+	width: 40%;
+	background-color: rgb(173, 14, 14);
+}
+#js{
+	width: 30%;
+	background-color: rgb(38, 54, 153);
+}
+#ds{
+	width: 80%;
+	background-color: rgb(111, 46, 120);
+}
+#algo{
+	width: 40%;
+	background-color: rgb(27, 188, 196);
+}
+#sql{
+	width: 20%;
+	background-color: blue;
+}
+
+#nodejs{
+	width:12%;
+	background-color: pink;
+}
+#skill-body{
+	margin-top: 10vh;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: flex-end;
+	justify-content: space-between;
+	margin-right:15px;
+
+}
+#skill-body div{
+	justify-content: space-evenly;
+}
+.skill-bar{
+	width:9.375rem;
+	height: 2.5rem;
+	background-color:grey; 
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	line-height: 40px;
+	color: white;
+	font-size: 1.5rem;
+	border-radius: 500px;
+	box-shadow: 3px 3px 4px 4px rgb(85,93,102);
+	border: 1px solid black;
+	margin:20px 40px;
+	overflow:auto ;
+
+
+}
+.text-in-skillbar{
+	margin-top: 5px;
+	/*vertical-align: center;*/
+	margin-left: 5px;
+	color: white;
+
+}
+.section-heading{
+	font-family: 'Raleway', sans-serif;
+	margin:1rem;
+	display: flex;
+	margin-top:20px;
+	flex-direction: row;	
+	font-size: 3rem;
+	letter-spacing: 0.4rem;
+
+}
+#skills{
+	height: 75vh;
+}
+#second-line{
+	/*margin-left: 20%;*/
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	margin: auto;
+	/*margin-right: 20%;*/
+}
+#second-line>div{
+	margin:40px 100px 40px 100px;
+}
+/*contact section*/
+#contact{
+	background-image:linear-gradient(to right top, rgb(86, 94, 104), rgb(123,124,127),beige,rgb(86, 94, 104));
+}
+
+
+

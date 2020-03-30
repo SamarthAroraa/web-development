@@ -1,0 +1,29 @@
+h1{
+	color:#571da8;
+}
+h4{
+	color: rgba(10,10,20,1);
+}
+li{
+	color: red;
+	background: grey;
+	border: 1px dashed green;
+}
+body{
+	background: url("/Users/samartharora/Downloads/288695\ \(1\).jpg");
+	background-repeat: repeat;
+	background-size: cover;
+}
+/*id- to select 1 element only*/
+#special{
+	background-color: yellow;
+}
+
+/*class to select multiple instances*/
+.highlight{
+text-decoration: line-through;
+/*line-height: 8;*/
+}
+.highlight:visited{
+	text-decoration-color: red;
+}
